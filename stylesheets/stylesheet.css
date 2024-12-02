@@ -1,0 +1,242 @@
+
+body {
+  background-color: #DDD;
+  margin: 0;
+}
+
+div.wrapper{
+  margin-left: 12%;
+  margin-right: 12%;
+  background-color: white;
+  color: black;
+  position: absolute;
+  height: 100%;
+  width: 76%;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+div.homepage{
+/*  background-repeat: repeat;*/
+  background-size: auto;
+  flex-grow:1;
+}
+
+div.homepage > * {
+  flex-shrink: 0;
+}
+
+
+img#borde {
+  padding: 0% 2.964%;
+}
+
+#titulo {
+  padding: 5px;
+  margin: 0px;
+  color: black;
+  text-align: center;
+  font-family: georgia;
+}
+h1 {
+  font-family: verdana;
+  font-style: italic;
+}
+p.conc {
+  background-color: lime;
+}
+div.plotlyplot {
+  align-self: center;
+}
+#imgtitle{
+  width: 58.784%;
+}
+#container {
+  margin-left: 7.41%;
+  margin-right: 7.41%;
+  background-color: white;
+}
+#descripcion {
+  margin-left: 8.89%;
+  margin-right: 8.89%;
+  background-color: white;
+  color: black;
+  font-family: verdana;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top:6%;
+  box-shadow: 0 5px 10px rgba(0,0,0,.5);
+}
+#headpic {
+  margin-left: 8.89%;
+  margin-right: 8.89%;
+  color: black;
+  font-family: verdana;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top:6%;
+  text-align: center;
+/*  box-shadow: 0 5px 10px rgba(0,0,0,.5);*/
+}
+#descripcion-cv {
+  margin-left: 8.89%;
+  margin-right: 8.89%;
+  background-color: white;
+  color: black;
+  font-family: verdana;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top:3%;
+  box-shadow: 0 5px 10px rgba(0,0,0,.5);
+}
+ul#topbar {
+  text-align: center;
+  padding: 10px 10px;
+  margin: 0px;
+}
+ul#topbar li a {
+  background-color: black;
+  color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+ul#topbar li a:hover {
+  background-color: white;
+  color: black;
+}
+ul#topbar li {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  text-align: center;
+  display:inline;
+  border-radius: 4px;
+  padding: 10px 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.boton{
+  text-align: center;
+  padding:0;
+  border:3px solid #555;
+  border-radius: 30px;
+  transition-duration: .60s;
+  box-shadow: 0 5px 10px rgba(0,0,0,.5);
+  font-size: 40px;
+  color: rgba(1, 1, 1, 0);
+}
+.boton:hover{
+  box-shadow: 0 30px 60px rgba(0,0,0,.5);
+  transform: scale(1.05);
+  cursor: pointer;
+  filter: brightness(50%);
+  color:#fff;
+}
+/*.boton::after{
+  margin:auto;
+  position:relative;
+  transition: all 0.6s;
+  content: attr(data-hover);
+}*/
+/*.boton:hover::after{
+}*/
+
+#botones1{
+  text-align: center;
+}
+#botones2{
+  text-align: center;
+}
+
+.smallbutton{
+  width:300px;
+  height:180px;
+  margin:30px;
+}
+.bigbutton{
+  width:400px;
+  height:250px;
+  margin:30px;
+}
+.botonbca{
+  background:url(/img/flag_arg.png);
+  background-size: 100% 100%;
+}
+.botonecb{
+  background:url(/img/flag_euro.png);
+  background-size: 100% 100%;
+}
+.botonfed{
+  background:url(/img/flag_usa.png);
+  background-size: 100% 100%;
+}
+.botonusk{
+  background:url(/img/flag_usa.png);
+  background-size: 100% 100%;
+}
+/*
+.csv_button{
+  padding: 10px;
+  width: 170px;
+  height: 60px;
+  display:flex;
+  flex-direction: row;
+  border: 3px solid #555;
+  border-radius: 30px;
+  margin: 5px;
+}
+
+*/
+.csv_button { /*thanks chatGPT :D*/
+  display: inline-block;
+  background-color: #4CAF50; /* Set the background color of the button */
+  padding: 2px 8px; /* Set the padding around the text */
+}
+.csv_button:hover{
+  /*filter: brightness(90%);*/
+  background-color: #000000;
+}
+
+.csv_button img {
+  height: 40px; /* Set the height of the image */
+  margin-right: 8px; /* Add some spacing between the image and the text */
+  vertical-align: middle; /* Align the image with the text */
+}
+.balance_toprow{
+  flex-grow: 2;
+  margin: 25px;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+select.balance_toprow{
+  background-color: #000000;
+}
+
+
+div.texto {
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: white;
+  color: black;
+  font-family: verdana;
+}
